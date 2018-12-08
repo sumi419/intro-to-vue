@@ -16,6 +16,12 @@ export default {
 }
 </script>
 
+  <!-- 
+  name of the script would be the componet you are exporting
+  data is similar to state in react
+  reset the state by setting todo to an empty string every time after you add a new todo
+  -->
+
 <style>
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
