@@ -38,10 +38,13 @@ export default {
   }
 }
 </script>
+<<<<<<< HEAD
   <!-- 
   name of the script would be the component you are exporting
   props is similar to state in react
   -->
+=======
+>>>>>>> 8b8f7a9e77822bcf5466ee417d8754724a4a11ca
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
@@ -60,7 +63,10 @@ a {
   color: #42b983;
 }
 </style>
+<<<<<<< HEAD
 
 <!-- template tag is your html -->
 <!-- script tag is your javascript -->
 <!-- style tag is your css -->
+=======
+>>>>>>> 8b8f7a9e77822bcf5466ee417d8754724a4a11ca
