@@ -1,5 +1,7 @@
 <template>
-  <div></div>
+  <div>
+  {{notes.title}}
+  </div>
 </template>
 
 
@@ -11,8 +13,7 @@ export default {
     return {
       note: '',
       notes: [
-        { "note": "learn Vue"},
-        { "note": "learn SQL"},
+        { "title": "learn Vue"},
       ]
     }
   },
