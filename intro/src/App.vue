@@ -13,7 +13,6 @@ import Notes from './components/Notes.vue'
 export default {
   name: 'app',
   components: {
-
     Notes
   }
 }
