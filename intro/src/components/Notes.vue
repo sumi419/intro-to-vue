@@ -1,6 +1,6 @@
 <template>
-<div>
-  <div v-for="(note, index) in notes" :key="index">
+<div class='container'>
+  <div class='notes-wrapper' v-for="(note, index) in notes" :key="index">
     {{note.title}}
     {{note.textBody}}
   </div>
@@ -32,3 +32,22 @@ export default {
       },
 }
 </script>
+
+<style scoped>
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  }
+
+.notes-wrapper {
+         display: grid;
+         justify-content: center;
+         text-decoration: none;
+         @media (min-width: 600px) {grid-template-columns: repeat(2, 1fr);}
+         @media (min-width: 900px) {grid-template-columns: repeat(3, 1fr);}
+
+}
+</style>
