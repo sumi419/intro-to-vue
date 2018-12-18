@@ -1,19 +1,19 @@
 <template>
 <div class='container'>
-  <div class='notes-wrapper' v-for="(note, index) in notes" :key="index">
-    {{note.title}}
-    {{note.textBody}}
-  </div>
+ <Note v-for="(note) in notes" :key="note.id" :note="note" class='notes-wrapper'></Note>
 </div>
 </template>
 
+// v-bind is how you pass props :note is shorthand
 
 
 <script>
 import axios from 'axios'
+import Note from './Note.vue'
 export default {
   
   name: 'Notes',
+  components: {Note}, 
   data() {
     return {
       note: '',
@@ -50,4 +50,5 @@ export default {
          @media (min-width: 900px) {grid-template-columns: repeat(3, 1fr);}
 
 }
+
 </style>

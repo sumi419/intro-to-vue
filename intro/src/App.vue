@@ -24,7 +24,7 @@ export default {
   reset the state by setting todo to an empty string every time after you add a new todo
   -->
 
-<style>
+<style>-
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
